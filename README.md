@@ -42,19 +42,27 @@ m = numerator / denominator
 b = Y_mean - m * X_mean
 
 plt.scatter(X, Y, color="blue", label="Data Points")
+
+
 plt.plot(X, Y_pred, color="red", label=f"Best Fit Line: Y = {m:.2f}X + {b:.2f}")
+
 plt.xlabel("X")
+
 plt.ylabel("Y")
+
 plt.title("Univariate Linear Regression - Best Fit Line")
+
 plt.legend()
+
 plt.show()
+
 print(f"Slope (m): {m}")
+
 print(f"Intercept (b): {b}")
 
 
 ## Output:
 ![best fit line](sam.png)
-
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
