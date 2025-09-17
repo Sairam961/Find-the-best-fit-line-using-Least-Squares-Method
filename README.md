@@ -30,9 +30,9 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-X = np.array([1, 2, 3, 4, 5], dtype=float)
+X = np.array([1, 2, 3, 4, 5])
 
-Y = np.array([2, 4, 5, 4, 5], dtype=float)
+Y = np.array([2, 4, 5, 4, 5])
 
 X_mean = np.mean(X)
 
