@@ -66,7 +66,6 @@ print(f"Intercept (b): {b}")
 
 
 ## Output:
-![best fit line](best_fit_line.png)
 <img src="best_fit_line.png" alt="Best Fit Line" width="500">
 
 
