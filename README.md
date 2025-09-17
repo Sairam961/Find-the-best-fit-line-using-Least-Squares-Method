@@ -58,8 +58,6 @@ plt.title("Univariate Linear Regression - Best Fit Line")
 
 plt.legend()
 
-plt.savefig("best_fit_line.png")
-
 plt.show()
 
 print(f"Slope (m): {m}")
