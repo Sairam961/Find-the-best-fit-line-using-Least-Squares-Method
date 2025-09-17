@@ -27,9 +27,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 X = np.array([1, 2, 3, 4, 5], dtype=float)
+
+
 Y = np.array([2, 4, 5, 4, 5], dtype=float)
 
 X_mean = np.mean(X)
+
+
 Y_mean = np.mean(Y)
 
 numerator = np.sum((X - X_mean) * (Y - Y_mean))
